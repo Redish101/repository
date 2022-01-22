@@ -1,1 +1,2 @@
-# repository
+# Redish101的知识库
+暂时没有内容
