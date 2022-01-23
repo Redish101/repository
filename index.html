@@ -22,20 +22,6 @@
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
-
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
-  <script>
-    const gitalk = new Gitalk({
-      clientID: 'd354b4749ae453b4601d',
-      clientSecret: '5540ee25f3c37748506c898d881214bc485bf4fe',
-      repo: 'repository',
-      owner: 'Redish101',
-      admin: ['Redish101'],
-      // facebook-like distraction free mode
-      distractionFreeMode: false
-    })
-  </script>
 </head>
 <body>
   <div id="app"></div>
@@ -51,5 +37,18 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <script>
+    const gitalk = new Gitalk({
+      clientID: 'd354b4749ae453b4601d',
+      clientSecret: '5540ee25f3c37748506c898d881214bc485bf4fe',
+      repo: 'repository',
+      owner: 'Redish101',
+      admin: ['Redish101'],
+      // facebook-like distraction free mode
+      distractionFreeMode: false
+    })
+  </script>
 </body>
 </html>
